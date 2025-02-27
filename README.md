@@ -4,10 +4,10 @@
 https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mode/147981/84
 -->
 <a href="https://github.com/jstrieb/github-stats">
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/overview.svg#gh-light-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" />
+<img src="https://github.com/gurkanozil/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
+<img src="https://github.com/gurkanozil/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
+<img src="https://github.com/gurkanozil/github-stats/blob/master/generated/overview.svg#gh-light-mode-only" />
+<img src="https://github.com/gurkanozil/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" />
 </a>
 
 Generate visualizations of GitHub user and repository statistics with GitHub
@@ -77,9 +77,7 @@ For more information on inaccuracies, see issue
    [here](https://github.com/jstrieb/github-stats/generate). Note: this is
    **not** the same as forking a copy because it copies everything fresh,
    without the huge commit history. 
-3. Go to the "Secrets" page of your copy of the repository. If this is the
-   README of your copy, click [this link](../../settings/secrets/actions) to go
-   to the "Secrets" page. Otherwise, go to the "Settings" tab of the
+3. Go to the "Secrets" page of your copy of the repository. Go to the "Settings" tab of the
    newly-created repository and go to the "Secrets" page (bottom left).
 4. Create a new secret with the name `ACCESS_TOKEN` and paste the copied
    personal access token as the value.
